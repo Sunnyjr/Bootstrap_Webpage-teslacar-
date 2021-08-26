@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Page </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="section_1 container-fluid p-0">
+        <div class="d-flex flex-column">
+            <div>
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="home.html">TESLA</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                <span><i class="bi bi-align-top"></i></span>
+                                <!--put icon -->
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="product.html">Product</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="service_page 1.html"
+                                            id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            services
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="service_page 1.html">service 1</a></li>
+                                            <li><a class="dropdown-item" href="service_page 2.html">service 2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html" tabindex="-1"
+                                            aria-disabled="true">Contact us</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <div class="jumbotron jumbotron-fluid text-center heading">
+                <div class="container">
+                    <h1 class="display-4"><b>Contact Us</b></h1>
+                    <p class="lead">This is TESLA this is FUTURE this is ELECTRIC CAR.</p>
+                    <a href="Product.html"><button type="button" class="btn btn-primary btn-lg"> Product
+                            page</button></a>
+                    <a href="service_page 1.html"><button type="button" class="btn btn-secondary btn-lg">Service
+                            page</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <!-- ***********************section 2 *****************************-->
+
+    <form style="margin:auto;
+    padding-left: 400px;
+    padding-right: 400px;">
+    
+
+        <div class="form-group">
+            <label for="name"><b>Name :</b></label>
+            <input type="text" class="form-control" placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1"><b>Email :</b></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+        </div>
+        <!--email-->
+        <div class="form-group">
+            <label for="exampleInputPassword1"><b>Password :</b></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <!--password-->
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1"><b>Message </b></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div><!-- text area-->
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <div style="padding-left: 300px; ">
+            <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+
+        </div>
+    </form>
